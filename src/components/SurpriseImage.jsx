@@ -1,5 +1,5 @@
 import React from 'react'
-import gatos from '../assets/gatos.PNG'
+import gatos from '../assets/gatos.jpg'
 
 function SurpriseImage() {
   // Puedes cambiar la URL por cualquier imagen que desees
