@@ -169,7 +169,7 @@ button:disabled {
 .result p,
 .quiz p {
   margin-top: 14px;
-  color: #ff8fa3;
+  color: #000;
 }
 
 .close-button {
