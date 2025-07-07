@@ -1,0 +1,227 @@
+/* Fuente Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: linear-gradient(135deg, #fffbe6 0%, #ffe5ec 100%);
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  color: #3d3d3d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Fondo animado con burbujas pastel sutiles */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(circle at 20% 30%, #ffe06633 0, transparent 60%),
+    radial-gradient(circle at 80% 70%, #ffb3c633 0, transparent 60%),
+    radial-gradient(circle at 50% 100%, #b2f2bb33 0, transparent 70%);
+  animation: bgMove 18s ease-in-out infinite alternate;
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+@keyframes bgMove {
+  0% {
+    background-position: 20% 30%, 80% 70%, 50% 100%;
+  }
+
+  100% {
+    background-position: 30% 40%, 70% 60%, 60% 90%;
+  }
+}
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+/* MOBILE FIRST: contenedor principal */
+.start-menu,
+.result,
+.quiz {
+  width: 98vw;
+  max-width: 430px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.97);
+  border-radius: 18px;
+  box-shadow: 0 2px 16px 0 rgba(255, 206, 86, 0.10), 0 1.5px 8px rgba(255, 111, 145, 0.08);
+  padding: 22px 6vw 22px 6vw;
+  text-align: center;
+  position: relative;
+  animation: floatIn 0.7s cubic-bezier(.23, 1.01, .32, 1) both;
+  backdrop-filter: blur(2.5px) saturate(1.05);
+  border: 1.5px solid #ffe06633;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes floatIn {
+  0% {
+    opacity: 0;
+    transform: translateY(18px) scale(0.98);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #ff8fa3;
+  letter-spacing: -1px;
+  text-shadow: 0 2px 12px #ffe06622;
+  transition: color 0.3s;
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1.05rem;
+  margin-bottom: 18px;
+  color: #5c5c5c;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1.01rem;
+  padding: 13px 0;
+  margin: 10px 0;
+  width: 100%;
+  border: none;
+  border-radius: 11px;
+  background: linear-gradient(90deg, #ffe066 0%, #ffd6a5 60%, #ff8fa3 100%);
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background 0.35s cubic-bezier(.4, 0, .2, 1),
+    color 0.25s cubic-bezier(.4, 0, .2, 1),
+    transform 0.18s cubic-bezier(.4, 0, .2, 1),
+    box-shadow 0.22s cubic-bezier(.4, 0, .2, 1),
+    letter-spacing 0.18s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0 2px 8px #ffe06622;
+  outline: none;
+  letter-spacing: 0.5px;
+}
+
+button:hover:not(:disabled) {
+  background: linear-gradient(90deg, #b2f2bb 0%, #ffe066 60%, #ffd6a5 100%);
+  color: #3d3d3d;
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 4px 16px #b2f2bb33;
+  letter-spacing: 1px;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.quiz button {
+  margin-bottom: 11px;
+}
+
+.quiz button[style*="background: green"] {
+  background: linear-gradient(90deg, #b2f2bb 0%, #69db7c 100%) !important;
+  color: #2d2d2d !important;
+  border: 2px solid #69db7c;
+  box-shadow: 0 0 12px #b2f2bb55;
+}
+
+.quiz button[style*="background: red"] {
+  background: linear-gradient(90deg, #ff8fa3 0%, #ff8787 100%) !important;
+  color: #fff !important;
+  border: 2px solid #ff8fa3;
+  box-shadow: 0 0 12px #ff8fa377;
+}
+
+.quiz>div {
+  margin-bottom: 18px;
+}
+
+.result p,
+.quiz p {
+  margin-top: 14px;
+  color: #ff8fa3;
+}
+
+.close-button {
+  position: absolute;
+  top: -10px;
+  right: -140px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #ff8fa3;
+  transition: color 0.3s ease-in-out;
+}
+
+.close-button:hover,
+.close-button:focus {
+  background: transparent !important;
+  color: #ff8fa3 !important;
+  transform: none !important;
+  box-shadow: none !important;
+  letter-spacing: normal !important;
+  transition: none !important;
+}
+
+/* DESKTOP: mejora paddings, fuentes y radios en pantallas grandes */
+@media (min-width: 600px) {
+
+  .start-menu,
+  .result,
+  .quiz {
+    padding: 48px 32px 36px 32px;
+    border-radius: 24px;
+  }
+
+  h1,
+  h2 {
+    font-size: 1.45rem;
+  }
+
+  button {
+    font-size: 1.08rem;
+    padding: 15px 0;
+  }
+
+  p {
+    font-size: 1.13rem;
+  }
+
+  .close-button {
+    top: -20px;
+    right: -160px;
+    font-size: 2.5rem;
+  }
+
+}

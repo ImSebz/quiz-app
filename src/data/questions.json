@@ -1,0 +1,458 @@
+{
+    "Google Ads": [
+        {
+            "question": "¿Cuál es el principal beneficio de usar extensiones de anuncio en Google Ads?",
+            "options": [
+                "Aumentar el CTR mostrando información adicional",
+                "Reducir el costo por clic automáticamente",
+                "Mejorar el SEO del sitio web",
+                "Incrementar el presupuesto diario"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "¿Qué tipo de concordancia permite mostrar anuncios solo cuando la búsqueda es exactamente igual a la palabra clave?",
+            "options": [
+                "Concordancia amplia",
+                "Concordancia de frase",
+                "Concordancia exacta",
+                "Concordancia negativa"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué métrica es fundamental para el 'Nivel de Calidad' de un anuncio en Google Ads?",
+            "options": [
+                "Número de impresiones",
+                "Porcentaje de clics esperado (CTR)",
+                "Presupuesto diario",
+                "Número de conversiones"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Para qué se utilizan las 'palabras clave negativas' en una campaña de Google Ads?",
+            "options": [
+                "Para aparecer en más búsquedas",
+                "Para evitar clics irrelevantes",
+                "Para aumentar el costo por clic",
+                "Para mejorar el ranking orgánico"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué estrategia de puja de Google Ads busca obtener la mayor cantidad de conversiones posible dentro de tu presupuesto?",
+            "options": [
+                "CPC manual",
+                "CPM objetivo",
+                "Maximizar conversiones",
+                "Cuota de impresiones objetivo"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué factores influyen principalmente en el 'ranking del anuncio' en Google Ads?",
+            "options": [
+                "Solo la puja máxima y el presupuesto diario",
+                "El nivel de calidad, la puja, el contexto y el impacto de las extensiones",
+                "El número de conversiones y la ubicación del usuario",
+                "La antigüedad de la cuenta y el tipo de industria"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué componente del Nivel de Calidad mide la probabilidad de que tu anuncio reciba clics?",
+            "options": [
+                "Relevancia del anuncio",
+                "Experiencia de la página de destino",
+                "Porcentaje de clics esperado (CTR)",
+                "Puntuación de calidad de la cuenta"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué significa la 'concordancia amplia' de palabras clave?",
+            "options": [
+                "Solo las búsquedas exactas activan el anuncio",
+                "Permite mostrar anuncios para sinónimos y búsquedas relacionadas",
+                "Muestra anuncios para búsquedas que contienen la frase exacta",
+                "Evita que el anuncio se muestre para ciertas búsquedas"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuál es la función principal del 'Optimizador de Conversiones' (o estrategias de puja inteligente) en Google Ads?",
+            "options": [
+                "Ajustar las pujas manualmente cada hora",
+                "Automatizar las pujas para conseguir más conversiones al CPA deseado",
+                "Generar nuevas palabras clave automáticamente",
+                "Crear nuevos anuncios sin intervención"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Cómo maneja Google los 'clics no válidos' (clics automáticos o fraudulentos)?",
+            "options": [
+                "Los cobra al anunciante pero los ignora en los informes",
+                "Los filtra automáticamente y los reembolsa al anunciante",
+                "Los reporta como conversiones para inflar los datos",
+                "No tiene un sistema para detectarlos"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué deberías hacer si un anuncio no se está publicando en Google Ads?",
+            "options": [
+                "Aumentar inmediatamente el presupuesto a su máximo",
+                "Eliminar el anuncio y crear uno nuevo",
+                "Utilizar la 'Herramienta de diagnóstico y vista previa de anuncios'",
+                "Esperar 7 días para que Google lo active"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué problema común relacionado con la configuración de la campaña puede afectar el rendimiento en Google Ads?",
+            "options": [
+                "Demasiadas extensiones de anuncio activas",
+                "Palabras clave demasiado amplias o sin negativas",
+                "Un alto nivel de calidad",
+                "Uso de todos los tipos de concordancia"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué es la 'oferta de CPC máxima' en Google Ads?",
+            "options": [
+                "El costo real que pagas por cada clic",
+                "La cantidad más alta que estás dispuesto a pagar por un solo clic",
+                "El costo promedio de todos tus clics",
+                "El presupuesto total de tu campaña"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Cómo contribuye el 'API de Google Ads' a la gestión de campañas?",
+            "options": [
+                "Permite la automatización y gestión programática de cuentas",
+                "Es una herramienta para diseñar creatividades de anuncios",
+                "Mide la efectividad de los anuncios de display",
+                "Ofrece soporte técnico en vivo 24/7"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "¿Qué acción sugiere Google Ads cuando detecta una baja probabilidad de conversión para un usuario?",
+            "options": [
+                "Subir la puja para ese usuario",
+                "Bajar la puja para ese usuario",
+                "Mostrar más extensiones",
+                "Cambiar la palabra clave"
+            ],
+            "answer": 1
+        }
+    ],
+    "Google Analytics": [
+        {
+            "question": "¿Qué es un 'evento' en Google Analytics 4?",
+            "options": [
+                "Una acción específica del usuario que se puede medir",
+                "Un informe personalizado",
+                "Un tipo de audiencia",
+                "Un segmento de canal"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "¿Cuál es la diferencia principal entre una 'sesión' y un 'usuario' en Analytics?",
+            "options": [
+                "Una sesión puede contener múltiples usuarios",
+                "Un usuario puede tener múltiples sesiones",
+                "Ambos son lo mismo",
+                "Una sesión dura 24 horas"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué informe de Google Analytics te permite ver la actividad de los usuarios en tu sitio web en tiempo real?",
+            "options": [
+                "Informe de audiencias",
+                "Informe de adquisición",
+                "Informe de tiempo real",
+                "Informe de comportamiento"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué indica un alto 'porcentaje de rebote' en Google Analytics?",
+            "options": [
+                "Alta interacción del usuario",
+                "Que los usuarios encontraron rápidamente lo que buscaban",
+                "Que los usuarios abandonaron el sitio después de ver solo una página",
+                "Que el sitio es muy rápido"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Cuál es el propósito del 'seguimiento multidominio' en Google Analytics?",
+            "options": [
+                "Combinar datos de diferentes propiedades de GA",
+                "Rastrear usuarios que navegan entre varios dominios relacionados como una sola sesión",
+                "Excluir tráfico de ciertos dominios",
+                "Analizar el rendimiento de subdominios"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué representan 'Fuente' y 'Medio' en los informes de adquisición de Google Analytics?",
+            "options": [
+                "El tipo de dispositivo y el navegador del usuario",
+                "El origen del tráfico y la forma en que llegó el usuario",
+                "El número de clics y las impresiones",
+                "Las páginas más visitadas y el tiempo en el sitio"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Por qué Google Analytics no permite identificar personalmente a los usuarios en sus informes?",
+            "options": [
+                "Por limitaciones técnicas de la herramienta",
+                "Para proteger la privacidad de los usuarios y cumplir con la normativa de datos",
+                "Porque la información personal no es relevante para el análisis web",
+                "Solo es posible con una suscripción premium"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué es la 'tasa de interacción' en Google Analytics 4?",
+            "options": [
+                "El porcentaje de sesiones sin ninguna actividad",
+                "El porcentaje de sesiones que duraron más de 10 segundos, tuvieron un evento de conversión o más de una vista de página",
+                "El número total de clics en un día",
+                "La suma de todas las conversiones dividida por el número de usuarios"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué elemento del seguimiento de GA se utiliza para recopilar datos de interacciones del usuario en un sitio web?",
+            "options": [
+                "El sitemap XML",
+                "El archivo robots.txt",
+                "El código de rastreo (etiqueta de Google)",
+                "Las meta descripciones"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Para qué se utilizan las 'dimensiones personalizadas' en Google Analytics?",
+            "options": [
+                "Para excluir tráfico de ciertos países",
+                "Para añadir atributos propios que GA no mide por defecto",
+                "Para cambiar el idioma de los informes",
+                "Para configurar objetivos automáticos"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué permite observar el 'informe de flujo de objetivos' en Google Analytics?",
+            "options": [
+                "La ruta que siguen los usuarios para completar una conversión",
+                "El número de conversiones totales por día",
+                "Las fuentes de tráfico con mayor número de conversiones",
+                "Los errores en la configuración de los objetivos"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "¿Cuál es la función principal de las 'cookies' en el seguimiento de Google Analytics?",
+            "options": [
+                "Almacenar contraseñas de usuario",
+                "Identificar a los usuarios y rastrear sus sesiones y comportamiento",
+                "Mejorar la velocidad de carga del sitio web",
+                "Activar la publicidad en línea"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué representa la 'propiedad' en la jerarquía de Google Analytics?",
+            "options": [
+                "Una organización o empresa",
+                "Un sitio web, una aplicación o un dispositivo desde donde se recogen datos",
+                "Un informe específico",
+                "Un grupo de usuarios con permisos similares"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué tipo de evento GA puede registrar automáticamente sin configuración adicional?",
+            "options": [
+                "Compras completadas en un e-commerce",
+                "Clics en enlaces externos",
+                "Reproducciones de video iniciadas",
+                "Todos los anteriores"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué mide el 'periodo de referencia' en el seguimiento multidominio de GA?",
+            "options": [
+                "El tiempo que un usuario pasa en cada dominio",
+                "El tiempo durante el cual las sesiones entre dominios se registran como una única sesión",
+                "La frecuencia con la que los usuarios visitan los dominios",
+                "El número de visitas únicas entre dominios"
+            ],
+            "answer": 1
+        }
+    ],
+    "SEO": [
+        {
+            "question": "¿Qué etiqueta HTML se utiliza para indicar la versión canónica de una página?",
+            "options": [
+                "<meta name='canonical'>",
+                "<link rel='canonical'>",
+                "<canonical>",
+                "<rel=canonical>"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuál es el propósito del archivo robots.txt?",
+            "options": [
+                "Bloquear el acceso de usuarios no registrados",
+                "Indicar a los motores de búsqueda qué páginas rastrear o no",
+                "Mejorar la velocidad de carga",
+                "Definir la estructura del sitemap"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué tipo de SEO se centra en las optimizaciones realizadas directamente en las páginas del sitio web?",
+            "options": [
+                "SEO Off-Page",
+                "SEO Técnico",
+                "SEO Local",
+                "SEO On-Page"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "¿Qué son los 'backlinks' en el contexto del SEO?",
+            "options": [
+                "Enlaces internos dentro del mismo sitio web",
+                "Enlaces de tu sitio hacia otros sitios web",
+                "Enlaces de otros sitios web que apuntan hacia tu sitio",
+                "Enlaces rotos en tu sitio web"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Por qué es importante la 'velocidad de carga de la página' para el SEO?",
+            "options": [
+                "Solo afecta la estética del sitio",
+                "Es un factor de ranking y mejora la experiencia del usuario",
+                "Solo es relevante para sitios de comercio electrónico",
+                "Reduce el costo de alojamiento del servidor"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuál es la diferencia principal entre SEO y SEM?",
+            "options": [
+                "SEO es marketing de contenidos, SEM es publicidad de pago",
+                "SEO busca tráfico orgánico, SEM incluye tráfico orgánico y de pago",
+                "SEO es para Google, SEM es para redes sociales",
+                "SEO se centra en la velocidad, SEM en el diseño"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué es la 'intención de búsqueda' en SEO y por qué es crucial?",
+            "options": [
+                "El idioma preferido del usuario",
+                "El propósito subyacente de la consulta del usuario, crucial para la relevancia del contenido",
+                "El número de palabras clave que usa el usuario",
+                "La ubicación geográfica del usuario"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué herramienta de Google es esencial para monitorear el rendimiento orgánico de tu sitio web y detectar errores de rastreo?",
+            "options": [
+                "Google Ads",
+                "Google Analytics",
+                "Google My Business",
+                "Google Search Console"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "¿Qué factor se considera el más importante para el SEO On-Page?",
+            "options": [
+                "El número de imágenes en la página",
+                "El título SEO (<title>) y la relevancia del contenido",
+                "La cantidad de anuncios en la página",
+                "El tamaño del archivo robots.txt"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué significa el acrónimo E-E-A-T en el contexto de Google?",
+            "options": [
+                "Experiencia, Eficacia, Autoridad y Tráfico",
+                "Estilo, Estructura, Atractivo y Título",
+                "Experiencia, Expertise, Autoridad y Fiabilidad (Trustworthiness)",
+                "Evaluación, Estabilidad, Anclaje y Tiempo"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Cuál es el propósito del 'sitemap XML'?",
+            "options": [
+                "Mostrar un mapa visual del sitio a los usuarios",
+                "Listar todas las páginas indexadas por Google",
+                "Ayudar a los motores de búsqueda a descubrir e indexar todas las páginas importantes del sitio",
+                "Bloquear páginas del rastreo"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué diferencia un enlace 'do-follow' de un 'no-follow'?",
+            "options": [
+                "Do-follow es para imágenes, no-follow es para texto",
+                "Do-follow pasa autoridad SEO, no-follow no lo hace",
+                "Do-follow es interno, no-follow es externo",
+                "Do-follow es pagado, no-follow es orgánico"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué es la 'indexación' en el SEO?",
+            "options": [
+                "El proceso de rastrear nuevos enlaces",
+                "El proceso de clasificar las páginas según su velocidad",
+                "El proceso de almacenar y organizar la información de las páginas en el índice del motor de búsqueda",
+                "El acto de compartir un sitio web en redes sociales"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Por qué es importante la 'adaptabilidad móvil' (mobile-friendliness) para el SEO actual?",
+            "options": [
+                "Solo afecta la apariencia visual del sitio",
+                "Google prioriza la indexación móvil (Mobile-first indexing) y la experiencia de usuario en móviles",
+                "Reduce el número de backlinks necesarios",
+                "No tiene impacto directo en el ranking"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuál es uno de los principales objetivos del SEO Off-Page?",
+            "options": [
+                "Optimizar los títulos y las descripciones de las páginas",
+                "Mejorar la autoridad y reputación del sitio a través de enlaces de calidad",
+                "Aumentar la velocidad de carga de las imágenes",
+                "Crear contenido de texto más largo"
+            ],
+            "answer": 1
+        }
+    ]
+}
